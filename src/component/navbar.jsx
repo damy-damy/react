@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
 
         <nav className="w-full bg-[#1e2a5a] text-white  shadow-lg ">
-            <div className="max-w-7xl mx-auto px-8 py-5  flex items-center justify-between">
+            <div className="max-w-7xl mx-auto px-8 py-5 sm:px-6 sm:py-5 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 
                 {/* Logo */}
                 <a href="/" className="text-2xl font-bold tracking-wide">
@@ -13,7 +13,7 @@ const Navbar = () => {
                 </a>
 
                 {/* Navigation links */}
-                <div className="flex items-center gap-8">
+                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
 
                     <Link to="/"
                         className="text-indigo-300 font-semibold hover:text-white transition">

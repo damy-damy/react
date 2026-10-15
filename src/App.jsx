@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './component/navbar'
-import Sidebar from './component/sidebar'
 import Home from './pages/home'
 import Footer from './component/footer'
 import { BrowserRouter, Routes, Route, } from 'react-router-dom'
@@ -22,9 +21,9 @@ const App = () => {
 
         </div>
 
-        <Sidebar />
 
-        <div className='ml-56 flex-1'>
+
+        <div className='flex-1'>
 
 
           <Routes>
