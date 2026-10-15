@@ -1,23 +1,38 @@
-import React from 'react'
+import React from "react";
 
 const Myproject = () => {
     return (
+        <section className="relative isolate overflow-hidden px-6 py-16">
 
-        <section className="bg-white px-6 py-16">
-            <div className="mx-auto max-w-5xl">
+            {/* Background Video */}
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="absolute inset-0 -z-10 h-full w-full object-cover"
+            >
+                <source src="/backgroundvideo.mp4" type="video/mp4" />
+            </video>
 
-                <h2 className="mb-4 text-center text-3xl font-bold text-blue-600">
+            {/* Dark overlay */}
+            <div className="absolute inset-0 -z-10 bg-black/60"></div>
+
+            {/* Projects Content */}
+            <div className="relative z-10 mx-auto max-w-5xl">
+
+                <h2 className="mb-4 text-center text-3xl font-bold text-white">
                     My Projects
                 </h2>
 
-                <p className="mb-10 text-center text-gray-600">
+                <p className="mb-10 text-center text-gray-200">
                     Here are some projects I am working on as I grow as a developer.
                 </p>
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
 
                     {/* Project One */}
-                    <div className="overflow-hidden rounded-xl border border-gray-200 shadow-md">
+                    <div className="overflow-hidden rounded-xl border border-white/20 bg-white/90 shadow-md">
                         <div className="flex h-40 items-center justify-center bg-blue-100">
                             <span className="text-5xl">🛍️</span>
                         </div>
@@ -51,7 +66,7 @@ const Myproject = () => {
                     </div>
 
                     {/* Project Two */}
-                    <div className="overflow-hidden rounded-xl border border-gray-200 shadow-md">
+                    <div className="overflow-hidden rounded-xl border border-white/20 bg-white/90 shadow-md">
                         <div className="flex h-40 items-center justify-center bg-purple-100">
                             <span className="text-5xl">🚗</span>
                         </div>
@@ -88,8 +103,6 @@ const Myproject = () => {
             </div>
         </section>
     );
-}
+};
 
-
-
-export default Myproject
+export default Myproject;

@@ -8,7 +8,7 @@ const AboutHero = () => {
                 <h1 className="text-4xl md:text-6xl font-bold">
                     More Than Just a <span className="text-[#c084fc]">Creative Mind</span>
                 </h1>
-                <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+                <p className="text-gray-400  max-w-2xl mx-auto text-lg">
                     I'm Princess Dammy — a learner, creator, and dreamer.
                     I turn ideas into beautiful digital experiences that inspire.
                 </p>

@@ -6,7 +6,7 @@ const Hero = () => {
 
         <section
             id="home"
-            className="min-h-[85vh] flex items-center bg-gradient-to-br from-indigo-950 via-purple-950 to-slate-900 px-6 py-20 text-white"
+            className="min-h-[85vh] flex  items-center  px-6 py-20 text-white " style={{ backgroundImage: "url('/background.jpg')" }}
         >
             <div className="mx-auto max-w-6xl w-full">
                 <p className="mb-5 font-semibold uppercase tracking-[0.25em] text-purple-300">
@@ -14,14 +14,14 @@ const Hero = () => {
                 </p>
 
                 <h1 className="text-5xl font-extrabold leading-tight md:text-7xl">
-                    Hi, I'm <span className="text-purple-400">Princess Dammy.</span>
+                    Hi, I'm <span className="text-purple-400 font-[fantas]">Princess Dammy.</span>
                 </h1>
 
-                <h2 className="mt-5 text-2xl font-semibold md:text-3xl">
+                <h2 className="mt-5 text-2xl font-mono font-semibold md:text-3xl">
                     Creative mind. Big dreams. Bright future.
                 </h2>
 
-                <p className="mt-6 max-w-2xl leading-8 text-slate-300">
+                <p className="mt-6 max-w-2xl leading-8 font-mono text-slate-300">
                     I'm passionate about learning, creating beautiful
                     digital experiences and turning my ideas into reality.
                     This is my space to share my journey with the world.
