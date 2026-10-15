@@ -11,17 +11,17 @@ const ServiceList = () => {
                 </div>
 
                 {/* GRID */}
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
 
                     {/* Service 1 */}
                     <div className="bg-gray-50 rounded-2xl overflow-hidden border hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
                         <img
                             src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&q=80"
                             alt="Brand Strategy"
-                            className="w-full h-48 object-cover group-hover:scale-105 transition duration-500"
+                            className="w-full h-28 sm:h-40 object-cover group-hover:scale-105 transition duration-500"
                         />
-                        <div className="p-7">
-                            <h3 className="font-bold text-xl mb-3">Brand Strategy</h3>
+                        <div className="p-3 sm:p-5">
+                            <h3 className="font-bold text-sm sm:text-xl  mb-2">Brand Strategy</h3>
                             <p className="text-sm text-gray-500 leading-relaxed">We build powerful brands that stand out and connect with your customers.</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const ServiceList = () => {
                         <img
                             src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80"
                             alt="Web Development"
-                            className="w-full h-48 object-cover group-hover:scale-105 transition duration-500"
+                            className="w-full h-28 sm:h-40  object-cover group-hover:scale-105 transition duration-500"
                         />
                         <div className="p-7">
                             <h3 className="font-bold text-xl mb-3">Web Development</h3>
