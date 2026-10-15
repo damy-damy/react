@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    [class*="w-["] {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .flex {
+        flex-wrap: wrap !important;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+    }
+
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 640px) {
+    #root {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
