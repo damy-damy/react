@@ -56,7 +56,7 @@ const Navbar = () => {
 
             </div>
 
-            {/* Mobile Navigation Links */}
+
             {menuOpen && (
                 <div className="md:hidden flex flex-col gap-1 px-4 pb-4">
 

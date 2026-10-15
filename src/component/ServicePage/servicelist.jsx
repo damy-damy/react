@@ -2,16 +2,16 @@ import React from 'react'
 
 const ServiceList = () => {
     return (
-        <section className="py-20 px-8 bg-white">
+        <section className="py-20 px-4 bg-white">
             <div className="max-w-6xl mx-auto">
 
                 <div className="text-center mb-14">
                     <p className="text-sm uppercase tracking-widest text-gray-500 mb-3">What We Offer</p>
-                    <h2 className="text-4xl font-bold">Our Core Services</h2>
+                    <h2 className="text-3xl sm:text-4xl font-bold">Our Core Services</h2>
                 </div>
 
                 {/* GRID */}
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
 
                     {/* Service 1 */}
                     <div className="bg-gray-50 rounded-2xl overflow-hidden border hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
